@@ -1,0 +1,12 @@
+name = "scheduled-wifi-cheker"
+main = "src/index.js"
+compatibility_date = "2022-12-22"
+usage_model = "bundled"
+env = { }
+
+kv_namespaces = [
+  { binding = "HATA", id = "15359ec46cb94d4ca8d04f970181a00b", preview_id = "83713271687a4d70a258c4957b80b9dd"}
+]
+
+[triggers]
+crons = ["* * * * *"]
